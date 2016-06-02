@@ -1,0 +1,29 @@
+/* Inserta tu código aqui */
+.gris{
+	background-color: #D8D8D8;
+}
+.derecha{
+	left:30%;
+}
+.video{
+  width: 100%;
+  height: 200px;
+}
+.cuadro{
+	background-color: #D8D8D8;
+	width: 100%;
+	height:auto;
+}
+.margen{
+	padding: 20px;
+}
+.aliniado{
+	margin-left: 65%;
+}
+.imag{
+	width: 100%;
+	height:100px;
+}
+.size_chica{
+	font-size:9px; 
+}
