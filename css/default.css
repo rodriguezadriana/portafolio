@@ -158,20 +158,26 @@ a {
 
 .linea2{
 	width: 100px;
-	margin-left: 46.5%;
-	border-color: rgb(255, 133, 17);
+	margin-left: 46%;
+	border-color: #fff;
     border-width: 3px;
 }
 .linea3{
 	width: 200px;
-	margin-left: 41%;
+	margin-left: 43%;
 	border-color: #FFEB3B;
     border-width: 3px;
+}
+.linea4{
+	width: 100%;
+    border-width: 3px;
+    border-color: teal;
 }
 .naranja{
 	background-color:rgb(255, 133, 17) !important;
 	margin-top: 200px;
 	width: 100%;
+	height: auto;
 
 }
 .naranja2{
@@ -210,15 +216,20 @@ a {
 .iconos{
 	font-size: 90px;
 	margin-left: 34%;
-
+    color: teal;
 }
 .iconos2{
-	font-size: 50px;
+	font-size: 70px;
 	margin-left: 20%;
-
+    color: teal;
 }
 .medida{
+	font-size: 24px;
+}
+.medida2{
 	font-size: 20px;
+	color: #787;
+
 }
 
 /* clases de galeria proyectos*/
@@ -230,7 +241,8 @@ a {
 
 .vista{
 	font-size: 40px;
-
+	color: teal;
+    margin-left: 24%;
 }
 .derecha{
 	margin-left: 39%;
@@ -255,4 +267,18 @@ a {
 }
 .subir{
 	margin-bottom: 600px;
+}
+.footer{
+	background-color: #787;
+	height: 100px;
+}
+.adobe{
+	margin-left: 35%;
+}
+.adobe2{
+	margin-left: 27%;
+}
+.foco{
+       margin-top: -40px;
+    margin-left: 11px;
 }
