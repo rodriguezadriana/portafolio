@@ -16,8 +16,15 @@
 		<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 		 <link rel="stylesheet" href="css/animate.css">
 		 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
-	
+        <!-- Codrops galeria -->
+	     <meta name="description" content="Hover Effects with animated SVG Shapes using Snap.svg" />
+		<meta name="keywords" content="animated svg, hover effect, grid, svg shape html, " />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/componente.css" />
+		<script src="js/snap.svg-min.js"></script>
 
 	</head>
 	<body id="cuerpo">
@@ -29,7 +36,7 @@
 			</div><!--/ Codrops top bar -->
       <header class="clearfix container">
           <div class=" col-md-6 col-lg-12">
-          	 <h1 class="animated flip wow"> WEB / DISEÑO / FOTOGRAFÍA</h1>
+          	 <h1 class="animated flip wow titulo"> <a href="#YO"> SOBRE MÍ </a> /<a href="#web"> WEB </a> / <a href="#design">DISEÑO </a> /<a href="#YO"> FOGRAFÍA </a> /<a href="#YO"> CONTACTO </a></h1>
           </div>
 	  </header>       
 		 <section>
@@ -37,7 +44,7 @@
               <div class="row">
 	    	       <div class="col-xs-2 col-sm-4 col-md-6 col-lg-6"> 
 						<div class="centro main">
-							<div id="fc-slideshow" class="fc-slideshow">
+							<div id="fc-slideshow" class="fc-slideshow chico">
 								<ul class="fc-slides">
 									<li><img src="images/leon.jpg" class="img-responsive"></li>
 									<li><img src="images/adri.jpg" class="img-responsive"></li>
@@ -96,19 +103,19 @@
 		 	<div class="container">
 		 		<div class="row abajo">
 		 			<div class="col-md-6 col-lg-3">
-		 				<span class="ion-social-html5 iconos"></span>
+		 				<span class="ion-social-html5 iconos animated zoomInDown wow"></span>
 		 				<p class="text-center medida ">HTML5</p>
 		 			</div>
 		 			<div class="col-md-6 col-lg-3">
-		 				<span class="ion-social-css3 iconos"></span>
+		 				<span class="ion-social-css3 iconos animated zoomInDown wow"></span>
 		 				<p class="text-center medida">CSS</p>
 		 			</div>
 		 			<div class=" col-md-6 col-lg-3">
-		 				<span class="ion-social-javascript iconos"></span>
+		 				<span class="ion-social-javascript iconos animated zoomInDown wow"></span>
 		 				<p class="text-center medida">JavaScript</p>
 		 			</div>
 		 			<div class="col-md-6 col-lg-3">
-		 				<span class="ion-social-sass iconos"></span>
+		 				<span class="ion-social-sass iconos animated zoomInDown wow"></span>
 		 				<p class="text-center medida">SASS</p>
 		 			</div>
 		 		</div>
@@ -117,51 +124,59 @@
 		  
 		 <!--galeria proyectos-->
 
-		 <section class="abajo">
-		 	<div class="container">
-		 		<div class="row ">
-		 			<div class="col-md-7">
-		 				<h2>Proyecto Flat Theme</h2>
-		 				<hr class="linea4">
-		 				  <p class="medida2">Para este proyecto se trabajo en equipo usando bootstrap el reto fue trabajarlo por separado y poder unirlo en Github.</p>
-		 				  <a href=""><span class="ion-android-laptop vista "></span></a>
-		 			     <a href="https://github.com/rodriguezadriana/FlatTheme" target="_blank"><span class="ion-social-github vista"></span></a>
-		 			</div>
-		 		    <div class="col-md-5">
-		 				<img src="images/home.png" class="home img-responsive animated  jello wow" style="border-radius: 15px">
-		 			</div>
-		 		</div>
-		 		<div class="row abajo">
-		 			 <div class="col-md-5">
-		 				<img src="images/kane.png" class="home img-responsive animated  jello wow" style="border-radius: 15px">
-		 			</div>
-		 		    <div class="col-md-7">
-		 				<h2>Kane</h2>
-		 				<hr class="linea4">
-		 				  <p class="medida2">El proyecto se realizo en sass usando mixin.</p>
-		 				  <a href= " http://rodriguezadriana.github.io/kane-sasss" target="_blank"><span class="ion-android-laptop vista "></span></a>
-		 			     <a href="https://github.com/rodriguezadriana/kane-sasss" target="_blank"><span class="ion-social-github vista"></span></a>
-		 			    
-		 			</div>
-		 		</div>
-		 			<div class="row abajo">
-		 			<div class="col-md-7">
-		 				<h2>User-60</h2>
-		 				<hr class="linea4">
-		 				  <p class="medida2">Se trabajo en equipo usando bootstrap </p>
-		 				  <a href="http://rodriguezadriana.github.io/user60" target="_blank"><span class="ion-android-laptop vista "></span></a>
-		 			     <a href="https://github.com/rodriguezadriana/user60" target="_blank"><span class="ion-social-github vista"></span></a>
-		 			</div>
-		 		    <div class="col-md-5">
-		 				<img src="images/user.jpg" class="home img-responsive animated jello wow" style="border-radius: 15px">
-		 			</div>
-		 		</div>
-		 	</div>
+		 <section>
+		   <div class="container">
+		     <div class="row">
+		         <section id="grid" class="grid clearfix">
+				   <a href="file:///C:/Users/Dell/Documents/SantiagoAdriana/flatz/FlatTheme/index.html" target="_blank"data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+				       <img src="images/home2.png"/>
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+						<figcaption>
+							<h2>Flat Theme </h2>
+							<p>Pagina hecha con bootstrap</p>
+						</figcaption>
+					</figure>
+				   </a>
+				<a href="http://rodriguezadriana.github.io/kane-sasss/" target="_blank" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<img src="images/kane2.png" />
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+						<figcaption>
+							<h2>Kane</h2>
+							<p>Se realizo con sass usando mixin</p>
+						</figcaption>
+					</figure>
+				</a>
+				<a href="https://github.com/rodriguezadriana/user60" target="_blank" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<img src="images/user60.png" />
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+						<figcaption>
+							<h2>User-60</h2>
+							<p>Realizada con bootstrap</p>
+						</figcaption>
+					</figure>
+				</a>
+				<a href="http://rodriguezadriana.github.io/portfolio" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+					<figure>
+						<img src="images/por.png" />
+						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="M 180,160 0,218 0,0 180,0 z"/></svg>
+						<figcaption>
+							<h2>Portfolio</h2>
+							<p>Un previo de portafolio usando bootstrap</p>
+						</figcaption>
+					</figure>
+				</a>
+			</section>
 		<!-- separador -->
 	     <div class="col-lg-12">  
               <a href="#design"><img src="images/verde1.png" class="separa2 animated infinite bounce wow"></a>
 	      </div>
        <!-- separador -->
+              </div>
+           </div>
+
 		 </section>
 		
        	   <!--<section id="design">
@@ -177,13 +192,13 @@
        <section class="naranja2 mi2" id="design">
          <div class="row mi2">
 		 	<div class="col-md-12">
-		 		<h2 class="text-center">DISEÑO / FOTOGRAFÍA</h2>
+		 		<h2 class="text-center mi3">DISEÑO / FOTOGRAFÍA</h2>
 		 	   	<hr class="linea3"> 
 		 	</div>
 		 </div>
        <!-- 1er foto -->
        	 <div class="container abajo">
-       	   <div class="container">
+       	   <div class="container ocultar">
 		  	<div class="row">
 		  		<div class="col-md-6 col-lg-3">
 		  		   <span class="img-responsive adobe "><img src="images/ai.png"></span>
@@ -213,7 +228,7 @@
 		 		</div>
 		  	</div>
 		  </div>
-       	    <div class="row abajo">
+       	  <div class="row abajo">
 					 <div class="col-sm-6 col-md-4">
 					    <div class="thumbnail">
 					      <img src="images/pedro1.jpg" alt="...">
@@ -293,9 +308,9 @@
 		 		<div class="row abajo">
 		 			<div class="col-lg-10">
 		 			   <div class="">
-		 				   <a href="https://www.linkedin.com/profile/preview?locale=es_ES&trk=prof-0-sb-preview-primary-button"><span class="ion-social-linkedin  animated infinite bounce wow iconos2 adobe2 "></span></a>
-		 				   <a href="https://www.instagram.com/dali_adriana_pio/"><span class="ion-social-github iconos2 adobe2"></span></a>
-		 				   <a href="https://github.com/rodriguezadriana"><span class="ion-social-instagram iconos2 adobe2"></span></a>
+		 				   <a href="https://www.linkedin.com/profile/preview?locale=es_ES&trk=prof-0-sb-preview-primary-button"target="_blank"><span class="ion-social-linkedin  iconos3 adobe2 animated zoomIn wow"></span></a>
+		 				   <a href="https://www.instagram.com/dali_adriana_pio/" target="_blank"><span class="ion-social-github iconos2 adobe2"></span></a>
+		 				   <a href="https://github.com/rodriguezadriana" target="_blank"><span class="ion-social-instagram iconos2 adobe2"></span></a>
                        </div>
 		 			</div>
 		 		</div>
@@ -335,6 +350,34 @@
 				$( '#fc-slideshow' ).flipshow();
 
 			} );
+		</script>
+		<script>
+			(function() {
+	
+				function init() {
+					var speed = 250,
+						easing = mina.easeinout;
+
+					[].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
+						var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
+							pathConfig = {
+								from : path.attr( 'd' ),
+								to : el.getAttribute( 'data-path-hover' )
+							};
+
+						el.addEventListener( 'mouseenter', function() {
+							path.animate( { 'path' : pathConfig.to }, speed, easing );
+						} );
+
+						el.addEventListener( 'mouseleave', function() {
+							path.animate( { 'path' : pathConfig.from }, speed, easing );
+						} );
+					} );
+				}
+
+				init();
+
+			})();
 		</script>
 	</body>
 </html>

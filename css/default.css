@@ -148,6 +148,9 @@ a {
 .mi2{
 	margin-top: 160px;
 }
+.mi3{
+	margin-top: 110px;
+}
 
 .linea{
 	width: 100px;
@@ -182,7 +185,7 @@ a {
 }
 .naranja2{
 	background-color:rgb(255, 133, 17) !important;
-	margin-top: 200px;
+	margin-top: -219px;
 	width: 100%;
 
 }
@@ -205,7 +208,7 @@ a {
 }
 .separa2{
   
-  margin-top:140px;
+  margin-top:52px;
   margin-left:46%;
   
 }
@@ -223,6 +226,11 @@ a {
 	margin-left: 20%;
     color: teal;
 }
+.iconos3{
+	font-size: 70px;
+	margin-left: 20%;
+   color: teal;
+}
 .medida{
 	font-size: 24px;
 }
@@ -230,6 +238,34 @@ a {
 	font-size: 20px;
 	color: #787;
 
+}
+a:hover,
+a:focus {
+  color: teal !important;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+a {
+    color: #fff !important;
+    text-decoration: none;
+}
+.social:hover,
+.social:focus {
+  color: teal #fff !important;
+  text-decoration: underline;
+}
+.social:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.social{
+    color: teal !important;
+    text-decoration: none;
 }
 
 /* clases de galeria proyectos*/
@@ -270,7 +306,7 @@ a {
 }
 .footer{
 	background-color: #787;
-	height: 100px;
+	height: auto;
 }
 .adobe{
 	margin-left: 35%;
@@ -281,4 +317,20 @@ a {
 .foco{
        margin-top: -40px;
     margin-left: 11px;
+}
+.titulo{
+	font-size: 25px;
+	color: #fff !important;
+}
+@media screen and (max-width: 600px) {
+	.ocultar {
+		display: none;
+	}
+
+}
+@media screen and (max-width: 600px) {
+	.chico{
+	width: 200px;
+    height: 200px;
+    }
 }
